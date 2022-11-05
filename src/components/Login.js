@@ -19,7 +19,7 @@ function Login() {
          <input type="submit" />
        </div>
        <div>
-        <a className=''> Olvido su contraseña? </a>
+        <a> Olvido su contraseña? </a>
        </div>
      </form>
  </div>   
