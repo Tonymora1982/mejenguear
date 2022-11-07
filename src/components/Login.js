@@ -1,25 +1,26 @@
 import React from 'react';
 export default
 
-function Login() {
+function Login(props) {
  return (
- <div className='contenedor-login'>
+ <div className="Login" >
     <form>
        <div className="input-container">
-         <label>Username </label>
+         <label>Usuario </label>
          <input type="text" name="uname" required />
         
        </div>
        <div className="input-container">
-         <label>Password </label>
+         <label>Contraseña </label>
          <input type="password" name="pass" required />
    
        </div>
        <div className="button-container">
          <input type="submit" />
        </div>
+
        <div>
-        <a> Olvido su contraseña? </a>
+        <a href=''> Olvido su contraseña? </a>
        </div>
      </form>
  </div>   

@@ -1,18 +1,26 @@
+body {
+  background-color: aqua;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
 .App {
-  background-image: url(images/fondo.jpg);
-  background-size: cover;
   text-align: center;
+  height: 100%;
 }
 
 .App-logo {
   height: 30vmin;
   pointer-events: none;
-
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 200s linear;
+    animation: App-logo-spin infinite 100s linear;
   }
 }
 
@@ -21,13 +29,22 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
 .Login {
-font-family:'Courier New', Courier, monospace;
-color: black;
-font-size: 30px;
+  margin-left: 300px;
+  margin-right:300px;
+  text-align: center;
+  filter: alpha(opacity =10);     
+  font-family: 'Verdana';
+  color: white;
+  font-size: 25px;
+}
+
+.Navbar {
+align-content:inherit;
 }
